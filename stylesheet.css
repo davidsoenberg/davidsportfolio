@@ -4,8 +4,7 @@
 .wrapper {
 			max-width: auto;
 			margin: auto;
-			background-image: url("portfoliobaggrundv2.jpg")
-			
+			background-image: url("portfoliobaggrundv2.jpg")		
 }
 
 .header1 { 	grid-area: header; }
@@ -16,45 +15,43 @@
 
 .grid-container {
   			display: grid;
-  			grid-template:
+  			grid-template-areas:
     		'header header header header header header'
     		'navbar navbar navbar navbar navbar navbar'
 			'main main main main main main'
     		'footer footer footer footer footer footer';
-  			grid-gap: 1%;
-  			
-			
+  			grid-gap: 1%;			
 }
 
 .grid-container > div {
   			background-color: rgba(255, 255, 255, 0.8);
   			text-align: center;
   		
-  			font-size: 500%;
+  			font-size: 100%;
 }
 .header1 {
 			background-color: rgba(255, 255, 255, 0.8);
   			text-align: center;
   			
-  			font-size: 500%;
+  			font-size: 100%;
 }
 .navbar1 {
 			background-color: rgba(255, 255, 255, 0.8);
   			text-align: center;
   			
-  			font-size: 500%;
+  			font-size: 100%;
 }
 .main1 {
 			background-color: rgba(255, 255, 255, 0.8);
   			text-align: center;
   			
 			margin: 100%;
-  			font-size: 500%;
+  			font-size: 100%;
 }
 .footer1 {
 			background-color: rgba(255, 255, 255, 0.8);
   			text-align: center;
   			
-  			font-size: 500%;
+  			font-size: 100%;
 }
 
