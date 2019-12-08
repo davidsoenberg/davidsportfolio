@@ -2,14 +2,14 @@
 /* CSS Document */
 
 .wrapper {
-			max-width: 1920px;
+			max-width: auto;
 			margin: auto;
 			background-image: url("portfoliobaggrundv2.jpg")
 			
 }
 
 .header1 { 	grid-area: header; }
-.navbar1 { 	grid-area: menu; }
+.navbar1 { 	grid-area: navbar; }
 .main1 { 	grid-area: main; }
 .footer1 { 	grid-area: footer; }
 
@@ -18,7 +18,7 @@
   			display: grid;
   			grid-template:
     		'header header header header header header'
-    		'menu menu menu menu menu menu'
+    		'navbar navbar navbar navbar navbar navbar'
 			'main main main main main main'
     		'footer footer footer footer footer footer';
   			grid-gap: 1%;
