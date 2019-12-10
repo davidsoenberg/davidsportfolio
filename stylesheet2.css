@@ -60,7 +60,9 @@
 .main2 {
   			text-align: center;
   			padding-top: 5%;
-			padding-bottom: 1%; 			
+			padding-bottom: 1%;
+			/*padding-left: 1%;
+			padding-right: 1%;*/
 }
 /* Class til inholdet i footeren */
 .footer1 {
@@ -150,5 +152,4 @@
     					-1px 1px 0 #000,
   						 1px 1px 0 #000;
 }
-
 
