@@ -1,0 +1,346 @@
+@charset "UTF-8";
+/* Dette her er skabelonen, som Anne har provided og redigeret i */ 
+.wrapper {
+         max-width: 1024px;
+         margin: 0 auto;
+         font: 1.2em Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		 color: #FBFBFB;
+}
+.wrapper > * {
+	         border-radius: 5px;
+	         padding: 10px;
+}
+.main-head {
+  			grid-area: header;
+		
+  
+}
+.content {
+ 			grid-area: content;
+			margin-top: 210%;
+			margin-bottom: 50%;
+}
+.main-nav {
+ 			grid-area: nav;
+			
+}
+.main-footer {
+			grid-area: footer;
+			
+			
+ 
+}
+/* mobile first */
+.wrapper {
+  			display: grid;
+ 			grid-gap: 20px;
+  			grid-template-areas: 
+    		 "header"
+    		 "nav"
+     		"content"
+	  		"content"
+	  		"content"
+	  		"content"
+     		"footer";
+}
+/* Her påbegyndes Annes del af arbejdet, som hun har brugt til forsiden. Der er også her der ligger style til navbar*/
+.aqua{
+		margin-top: 10%;
+		margin-left: 32%;
+		padding-top: 25%;
+		padding-left: 0%;
+		padding-bottom: 0%;
+		padding-right: 0%;
+		text-shadow: 2px 2px black;
+	}
+
+.p{
+		padding-bottom: 50%;
+		text-shadow: 2px 2px black;
+		text-align: center;
+		padding-top: 5%;
+	
+}	
+
+nav ul {
+  		flex-direction: column;
+		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+}
+li{
+		float: center;
+}
+li a {
+  		display: block;
+  		color: #FBFBFB;
+  		text-align: center;
+  		padding: 15px;
+		text-decoration: none;
+		text-shadow: 2px 2px black;
+}
+li a:hover {
+  		background-color: darkolivegreen;
+}
+  
+
+.h1{
+		margin-top: 10%;
+		margin-left: 30%;
+}
+/* Her slutter Annes del og forsiden+grundskabelonen */
+
+/*Christoffer start */
+.flasken{
+		margin-top: 10%;
+		margin-left: 25%;
+		padding-top: 0%;
+		padding-left: 50px;
+		padding-bottom: 140%;
+}
+#flasken{
+		color:#FBFBFB;
+		text-shadow: 2px 2px black;
+}
+.p1{
+		margin-left: 0%;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		line-height: 1.4;
+		color: #FBFBFB;
+		text-shadow: 2px 2px black;
+}
+.second-nav:hover {
+  		flex-direction: column;
+		list-style-type: none;
+  		margin: 0;
+  		overflow: hidden;
+		float: center;
+  		display: block;
+  		color: #FBFBFB;
+  		text-align: center;
+		text-decoration: none;
+ 		background-color: #FBFBFB;
+}
+/* Christoffer slut */
+
+/* Fink start */
+.omos{
+		margin-top: 10%;
+		margin-left: 27%;
+		padding-top: 0px;
+		padding-left: 50px;
+		padding-bottom: 0px;
+		text-shadow: 2px 2px black;
+}
+.p2{
+		margin-left: 0%;
+		padding-top: 50px;
+		padding-bottom: 0px;
+		line-height: 1.4;
+		text-shadow: 2px 2px black;
+}
+.third-nav:hover {
+  		flex-direction: column;
+		list-style-type: none;
+ 		margin: 0;
+ 		padding-top: 0px;
+  		overflow: hidden;
+		float: center;
+  		display: block;
+  		color: #FBFBFB;
+  		text-align: center;
+		text-decoration: none;
+  		background-color: white;
+}
+/* Fink slut */
+
+/* David start */
+.findflasken{
+		margin-top: 10%;
+		margin-left: 20%;
+		padding-top: 0%;
+		padding-left: 50px;
+		padding-bottom: 20px;
+		text-shadow: 2px 2px black;
+
+}
+.p3{
+		margin-left: 0%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 1.4;
+		text-shadow: 2px 2px black;
+}
+.fourth-nav:hover {
+  		flex-direction: column;
+		list-style-type: none;
+  		margin: 0;
+  		padding-top: 0px;
+  		overflow: hidden;
+		float: center;
+  		display: block;
+  		color: #FBFBFB;
+  		text-align: center;
+		text-decoration: none;
+  		background-color: #9AAEC8;
+}
+/* David slut */
+
+.wrapperbaggrund {
+		background-image: url("vandfaldphone.jpg");
+		
+			
+}
+
+.section1 {
+		background-image: url("voresflaskephone.jpg");
+		background-repeat: no-repeat;
+		
+}
+
+.section2 {
+	 	background-image: url("mangebladephone.jpg");
+		
+}
+
+.section3 {
+		background-image: url("closeupleafphone.jpg");
+		 
+}
+
+.main-footer {
+		background-image: url("logotilfooter.jpg");
+		padding-bottom: 15%;
+		
+			
+}
+
+#rulned {
+		margin-left: 5%;
+		padding-top: 0%;
+		padding-bottom: 0px;
+		padding-left: 20%;
+		line-height: 1.4;
+		text-shadow: 2px 2px black;
+
+}
+#main-footer {
+		color:black;
+}
+
+@media only screen and (min-width: 600px){
+/*Forside og navbar*/	
+.wrapper {
+         max-width: 1600px;
+         margin: 0 auto;
+         font: 1.2em Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		 color: #FBFBFB;
+	}
+	
+.aqua{
+		margin-top: 0%;
+		margin-left: 0%;
+		padding-top: 10%;
+		padding-left: 0%;
+		padding-bottom: 0%;
+		padding-right: 0%;
+		text-shadow: 2px 2px black;
+		text-align: center;
+	}
+
+.p{
+		padding-bottom: 0%;
+		text-shadow: 2px 2px black;
+		text-align: center;
+		padding-top: 5%;
+
+	}
+.wrapperbaggrund {
+		background-image: url("vandfalddesktop.jpg");
+		background-repeat: no-repeat;
+	}
+/*Section1*/
+.section1 {
+		background-image: url("voresflaskedesktop.jpg");
+		background-repeat: no-repeat;
+		
+}
+.flasken{
+		margin-top: 5%;
+		margin-left: 0%;
+		padding-top: 0%;
+		padding-left: 0%;
+		padding-bottom: 0%;
+		text-align: center;	
+}
+#flasken{
+		color:#FBFBFB;
+		text-shadow: 2px 2px black;
+}
+	.imgclassdesk{
+	margin-right: 50%;
+		padding-top: 0%;
+		padding-bottom: 0%;	
+	}
+.p1{
+		margin-right: 50%;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		line-height: 1.4;
+		color: #FBFBFB;
+		text-shadow: 2px 2px black;
+}
+	#rulned {
+		margin-left: 0%;
+		padding-top: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		line-height: 1.4;
+		text-shadow: 2px 2px black;
+		text-align: center;
+	}
+/*Section 2*/	
+.section2 {
+	 	background-image: url("mangebladedesktop.jpg");
+		background-repeat: no-repeat;
+}
+.second-nav:hover {
+  		flex-direction: column;
+		list-style-type: none;
+  		margin: 0;
+  		overflow: hidden;
+		float: center;
+  		display: block;
+  		color: #FBFBFB;
+  		text-align: center;
+		text-decoration: none;
+ 		background-color: #FBFBFB;
+}
+.omos{
+	padding-left: 0%;
+	margin-right: 25%;
+	text-align: center;
+	}
+/*Section 3*/	
+
+.section3 {
+		background-image: url("closeupleafdesktop.jpg");
+		 background-repeat: no-repeat;
+}
+.p3{
+	text-align: left;	
+	}	
+.findflasken{
+		padding-left: 0%;
+	margin-right: 20%;
+	text-align: center;
+	}
+/*Footer*/
+.main-footer {
+		background-image: url("logotilfooter.jpg");
+		padding-bottom: 5%;
+		background-repeat: no-repeat;
+	}
+}

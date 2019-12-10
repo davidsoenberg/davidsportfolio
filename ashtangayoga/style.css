@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 600px) {
+
+	/*"Indtil media only" ses stylesheetet til mobile first versionen*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #dbdfe7; 
+}
+
+	/*li og li a elementer på navigationsbaren*/
+li {
+  float: none;
+	width: 100%;
+    }
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    }
+
+li a:hover {
+  background-color: #DBDFE7;
+    }
+
+	/*baggrundsfarven til vores hjemmeside*/
+body{
+	background-color: #FFFFFF;
+	}
+
+	/*hjemmesidens grid*/
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	}
+	
+
+	/*vores navn og navigationsbar er blevet stylet med googlefonts og ligger i et grid*/
+nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	grid-column: 1 / 2;
+	}
+
+	/*main er vores billeder og tekst*/
+main{
+	grid-column: 1 / 2;
+	align-content: center;
+	}
+
+	/*section er alt brødteksten*/
+section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column: 1 / 2;
+	text-align: center;
+	
+}
+	/*Der blevet brugt grid-column, for at billedet kunne nå helt ud til siderne*/
+img{
+	grid-column: 1 / 2;
+}
+	
+	/*Brødtekst nr to er blevet stylet, der bla. brugt padding for at få boksen i midsten*/
+#priser{
+	grid-column: 1 / 2;
+	border: solid 2px #dbdfe7;
+	margin: 5%;
+	padding: center;
+	font-family: 'Cairo', sans-serif;
+
+}
+	/*Brødtekst nr to er blevet stylet, der bla. brugt padding for at få boksen i midsten*/
+#tider{
+	grid-column: 1 / 2;
+	border: solid 2px #dbdfef;
+	margin: 5%;
+	padding: center; 
+	font-family: 'Cairo', sans-serif;
+}
+
+	/*Nedenfor er footer'en blevet stylet*/
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+	}
+
+	/*sociale medier ikonerne*/
+footer img{
+	float: right;
+	padding: 1px;
+	
+}
+}
+
+/*"Under media only" ses stylesheetet til desktop version*/
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #dbdfef;
+}
+
+
+li {
+  float: right;
+    }
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    }
+
+li a:hover {
+  background-color: #DBDFE7;
+    }
+
+body{
+	background-color: #FFFFFF;
+	}
+
+ 	
+
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	}
+
+nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	grid-column: 1 / 4;
+	}
+
+main{
+	grid-column: 1 / 4;
+	}
+
+section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column: 1 / 4;
+	text-align: center;
+}
+
+img{
+	grid-column: 1 / 4;
+}
+#priser{
+	grid-column: 1 / 2;
+	border: solid 2px #dbdfef;
+	margin: 5%;
+	font-family: 'Cairo', sans-serif;
+
+}
+
+
+#tider{
+	grid-column: 2 / 3;
+	border: solid 2px #dbdfef;
+	margin: 5%;
+	font-family: 'Cairo', sans-serif;
+}
+
+
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+	}
+
+footer img{
+	float: right;
+	
+}
+}

@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Set the background color of body to tan */
+
+
+/* On screens that are 600px or less */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+
+nav {
+  margin: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+}
+
+
+/* Styling af knap med tilmelding */
+ 
+#knapdecoration {
+	text-decoration: none;
+	color: white;
+
+}
+
+header button {
+  	position:center;
+	top: 75%;
+  	left: 8%;
+}
+
+
+button {
+  	background-color: #78979d;
+  	border: none;
+	border-radius: 25px;
+  	color: white;
+	height:60px;
+	width:270px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 22px;
+	  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #dbdfe7;
+	}
+
+li {
+  float: none;
+  width: 100%;
+	}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
+
+li a:hover {
+  background-color: #dbdfe7;
+	}
+
+/* for at definere fonten til brødteksten, har vi anvendt en google font (Cairo)  */
+main {
+	font-family: 'Cairo', sans-serif;
+}
+
+
+/*FOOTER STYLE: */
+
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+	}
+
+footer img{
+	float: right;
+	padding: 1px;
+	
+}
+}
+	
+
+/* On screens that are 600px or less, set the background color to olive */
+@media only screen and (min-width: 600px) {
+
+
+nav {
+  margin: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+}
+
+
+/* Styling af knap med tilmelding */
+ 
+#knapdecoration {
+	text-decoration: none;
+	color: white;
+
+}
+
+header button {
+  	position:center;
+	top: 75%;
+  	left: 8%;
+}
+
+
+button {
+  	background-color: #78979d;
+  	border: none;
+	border-radius: 25px;
+  	color: white;
+	height:60px;
+	width:270px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 22px;
+	  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #dbdfe7;
+	}
+
+li {
+  float: right;
+	
+	}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
+
+li a:hover {
+  background-color: #dbdfe7;
+	}
+
+/* for at definere fonten til brødteksten, har vi anvendt en google font (Cairo)  */
+main {
+	font-family: 'Cairo', sans-serif;
+}
+
+
+/*FOOTER STYLE: */
+
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+	}
+
+footer img{
+	float: right;
+	padding: 1px;
+	
+}
+}

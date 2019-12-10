@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Her gøre vi at det virker på en skærm under 660px aka. en Mobil */	
+@media only screen and (max-width: 600px) {
+/* Baggrundsfarven */
+body{
+	background-color: white;
+	}
+/* Instilling af vores grid på siden */
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	}
+/* font settings til vores menulinje og brødtekst */
+nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	grid-column: 1 / 2;
+	}
+
+main{
+	font-family: 'Cairo', sans-serif;
+	grid-column: 1 / 2;
+	}
+/* settings til menu linjen */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+	}
+
+li {
+  float: none;
+	width: 100%;
+	}
+
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
+/* her er settings til section som indebære settings til de 2 artecle som kaldes left og right */
+section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column: 1 / 2;
+	text-align: center;
+}
+
+#left{
+	grid-column: 1 / 2;
+	border: solid 2px #dbdfe7;
+	padding: 5%;
+	margin:5%;	 
+}
+
+#right{
+	grid-column: 1 / 3;
+	border: solid 2px #dbdfe7;
+	padding: 5%;
+	margin: 5%;
+}
+/* settings til footer */
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+}
+
+footer img{
+	padding: 1px;
+	float: right;	
+}
+}
+
+/* settings som træder i kræft nå skærmen er større end 600px */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+/* grid settings */
+#wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	}
+/* font settings */
+nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	grid-column: 1 / 4;
+	}
+
+main{
+	font-family: 'Cairo', sans-serif;
+	grid-column: 1 / 4;
+	}
+/* menu linje settings */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #DBDFE7;
+	}
+
+li {
+  float: right;
+	}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+	}
+}
+li a:hover {
+  background-color: #DBDFE7;
+}
+/* settings til article delen af siden */
+section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column: 1 / 4;
+	text-align: center;
+}
+
+#left{
+	grid-column: 1 / 2;
+	border: solid 2px #dbdfe7;
+	padding: 5%;
+	margin:5%;	 
+}
+
+#right{
+	grid-column: 2 / 4;
+	border: solid 2px #dbdfe7;
+	padding: 5%;
+	margin: 5%;
+}
+
+/* setting footer */
+footer{
+	grid-column: 1 / 4;
+	font-size: 15px; 
+	background-color: #d8c6b5;
+	text-align:left;
+	padding: 1.2%;
+}
+
+footer img{
+	padding: 1px;
+	float: right;	
+}
