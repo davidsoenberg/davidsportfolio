@@ -17,7 +17,7 @@
 
 .grid-container {
   			display: grid;
-			grid-template-columns: auto auto auto auto auto auto;
+			grid-template-columns: repeat(6, 1fr);
 			margin: 0, auto;
   			grid-template-areas:
     		'header header header header header header'
@@ -51,7 +51,9 @@
 .main1 {
   			text-align: center;
   			padding-top: 5%;
-			text-decoration: none  			
+			text-decoration: none;
+			
+			
 }
 .main2 {
   			text-align: center;
