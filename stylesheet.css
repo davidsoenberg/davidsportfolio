@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Wrapperen som er brugt rundt om hele siden */
 .wrapper {
 			max-width: auto;
 			margin: auto;
@@ -9,12 +10,14 @@
 			font-family: 'Oswald', sans-serif;
 }
 
+/* De forskellige classes får tildelt et grid-area her*/
 .header1 { 	grid-area: header; }
 .navbar1 { 	grid-area: navbar; }
 .main1   { 	grid-area: main1;  }
 .footer1 { 	grid-area: footer; }
 
 
+/* Opsætningen af den grid-container jeg bruger på siden*/
 .grid-container {
   			display: grid;
 			grid-template-columns: repeat(6, 1fr);
@@ -27,11 +30,13 @@
   			grid-gap: 1%;			
 }
 
+/* Class til header*/
 .header1 {
   			text-align: center;
   			
   			
 }
+/* Class til indholdet i Navigationbaren */
 .navbar1 {
 			
   			text-align: center;							
@@ -43,6 +48,7 @@
     					-1px 1px 0 #000,
   						 1px 1px 0 #000; 	
 }
+/* Class til indholdet på midten af siden */
 .main1 {
   			text-align: center;
   			padding-top: 5%;
@@ -50,15 +56,18 @@
 			
 			
 }
+/* En ekstra Class til indholdet på midten af siden */
 .main2 {
   			text-align: center;
   			padding-top: 5%;
 			padding-bottom: 1%; 			
 }
+/* Class til inholdet i footeren */
 .footer1 {
   			text-align: center;
-			padding-bottom: 1%;			
+			padding-bottom: 1%;	
 }
+/* Class til stylingen af linksne i navbaren*/
 .navlinks {
 			background-color: rgb(0, 0, 0, 0.6); 
 			color: white;
@@ -72,6 +81,7 @@
 			padding-right: 13px;
 			font-size: 25px;
 }
+/* hover effekt til navbar linksne */
 .navlinks:hover {
 			background-color: darkgrey; 
 			color: white;
@@ -85,6 +95,7 @@
 			padding-right: 13px;
 			font-size: 25px;
 }
+/* Class til styling af links på siden */
 .links {
 			color: white;
    	 		text-shadow:
@@ -95,7 +106,7 @@
     		text-decoration: none;
 			padding-right: 10px;
 }
-
+/* hover effekt til links på siden */
 .links:hover {
 			color: darkgrey;
    	 		text-shadow:
@@ -107,7 +118,7 @@
 			padding-right: 10px;
 
 }
-
+/* Class til styling af billedeteksten på siden */
 .billedetekst {
 			
 			background-color: rgb(0, 0, 0, 0.6);
@@ -117,7 +128,9 @@
    						 1px -1px 0 #000,
     					-1px 1px 0 #000,
   						 1px 1px 0 #000;
+			
 }
+/* Ekstra Class til styling af billedeteksten på siden */
 .billedetekst2 {
 			background-color: rgb(0, 0, 0, 0.6);
 			color: white;
@@ -127,6 +140,7 @@
     					-1px 1px 0 #000,
   						 1px 1px 0 #000;
 }
+/* hover effekt til billedetekst2 classen */
 .billedetekst2:hover {
 			background-color: darkgrey;
 			color: white;
