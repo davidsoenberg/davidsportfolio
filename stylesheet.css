@@ -4,15 +4,14 @@
 .wrapper {
 			max-width: auto;
 			margin: auto;
-			background-image: url("portfoliobaggrundv3.jpg");	
-			
+			background-image: url("portfoliobaggrundv3.jpg");		
 			font-size: 20px;
 			font-family: 'Oswald', sans-serif;
 }
 
 .header1 { 	grid-area: header; }
 .navbar1 { 	grid-area: navbar; }
-.main1 { 	grid-area: main1; }
+.main1   { 	grid-area: main1;  }
 .footer1 { 	grid-area: footer; }
 
 
@@ -29,13 +28,11 @@
 }
 
 .grid-container {
-  			/*background-color: rgba(0, 0, 0, 0.2);*/
   			text-align: center;
   		
   			
 }
 .header1 {
-			/*background-color: rgba(255, 255, 255, 0.2);*/
   			text-align: center;
   			
   			
@@ -50,33 +47,21 @@
    						 1px -1px 0 #000,
     					-1px 1px 0 #000,
   						 1px 1px 0 #000; 	
-  			
-  		
 }
 .main1 {
-			/*background-color: rgba(0, 0, 0, 0.2);*/
   			text-align: center;
   			padding-top: 5%;
-			padding-bottom: 45%;
-			text-decoration: none
-  			
+			text-decoration: none  			
 }
 .main2 {
-			/*background-color: rgba(0, 0, 0, 0.2);*/
   			text-align: center;
-  			padding-top: 20%;
-			padding-bottom: 1%;
-			
-  			
+  			padding-top: 5%;
+			padding-bottom: 1%; 			
 }
 .footer1 {
-			/*background-color: rgba(0, 0, 0, 0.2);*/
   			text-align: center;
-			padding-bottom: 1%;
-  			
-  			
+			padding-bottom: 1%;			
 }
-
 .navlinks {
 			background-color: rgb(0, 0, 0, 0.6); 
 			color: white;
@@ -90,7 +75,19 @@
 			padding-right: 13px;
 			font-size: 25px;
 }
-
+.navlinks:hover {
+			background-color: darkgrey; 
+			color: white;
+   	 		text-shadow:
+    					-1px -1px 0 #000,
+   						 1px -1px 0 #000,
+    					-1px 1px 0 #000,
+  						 1px 1px 0 #000;
+    		text-decoration: none;
+			padding-left: 13px;
+			padding-right: 13px;
+			font-size: 25px;
+}
 .links {
 			color: white;
    	 		text-shadow:
@@ -102,6 +99,18 @@
 			padding-right: 10px;
 }
 
+.links:hover {
+			color: darkgrey;
+   	 		text-shadow:
+    					-1px -1px 0 #000,
+   						 1px -1px 0 #000,
+    					-1px 1px 0 #000,
+  						 1px 1px 0 #000;
+    		text-decoration: none;
+			padding-right: 10px;
+
+}
+
 .billedetekst {
 			background-color: rgb(0, 0, 0, 0.6);
 			grid-column-start: 3;
@@ -111,7 +120,30 @@
     					-1px -1px 0 #000,
    						 1px -1px 0 #000,
     					-1px 1px 0 #000,
-  						 1px 1px 0 #000; 
+  						 1px 1px 0 #000;
+}
+.billedetekst2 {
+			background-color: rgb(0, 0, 0, 0.6);
+			grid-column-start: 3;
+  			grid-column-end: 3;
+			color: white;
+   	 		text-shadow:
+    					-1px -1px 0 #000,
+   						 1px -1px 0 #000,
+    					-1px 1px 0 #000,
+  						 1px 1px 0 #000;
+}
+.billedetekst2:hover {
+			background-color: darkgrey;
+			grid-column-start: 3;
+  			grid-column-end: 3;
+			color: white;
+   	 		text-shadow:
+    					-1px -1px 0 #000,
+   						 1px -1px 0 #000,
+    					-1px 1px 0 #000,
+  						 1px 1px 0 #000;
+
 }
 
 
